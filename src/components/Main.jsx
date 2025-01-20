@@ -12,7 +12,7 @@ const handleScroll = () => {
 export function Main() {
   return (
     <div className="font-inter bg-gray-950">
-      <header className="flex justify-between px-7.5rem py-1.25rem">
+      <header className="flex justify-between items-center px-12 sm:px-7.5rem py-1.25rem">
         <aside className="logo">
           <Logo />
         </aside>
@@ -30,24 +30,24 @@ export function Main() {
         </nav>
       </header>
 
-      <main className="flex flex-col py-14 px-7.5rem">
+      <main className="flex flex-col py-14 px-12 sm:px-7.5rem">
         <div className="flex flex-col items-center">
           <img
-            className="h-avatar border-4 rounded-full border-bglinear"
+            className="h-40 sm:h-avatar border-4 rounded-full border-bglinear"
             src="src\assets\naelem.png"
             alt="Naelem Foto"
           />
-          <h2 id="typewriter" className="pt-6 text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 from-20% via-purple-400 via-50% to-purple-200 to-80%">
+          <h2 id="typewriter" className="pt-6 text-xl sm:text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 from-20% via-purple-400 via-50% to-purple-200 to-80%">
             <Typewriter />
           </h2>
-          <p className="pt-3 text-base sm:text-lg  text-gray-400">
+          <p className="pt-3 text-sm sm:text-base  text-gray-400">
             Sou desenvolvedora Front-end e UI/UX Designer que traz vida às
             ideias e estilo às interfaces.
           </p>
 
           <div className="flex justify-center items-center mt-16">
             <button
-              className="p-3 rounded-full animate-bounce text-bglinear bg-white100 shadow-lg shadow-purple-300"
+              className="p-2 sm:p-3 rounded-full animate-bounce text-bglinear bg-white100 shadow-lg shadow-purple-300"
               onClick={handleScroll}
             >
               <ArrowDown size={20} />
