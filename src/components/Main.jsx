@@ -32,7 +32,7 @@ export function Main() {
       <main className="flex flex-col py-14 px-12 sm:px-7.5rem">
         <div className="flex flex-col items-center">
           <img
-            className="h-40 sm:h-avatar border-4 rounded-full border-bglinear"
+            className="h-40 sm:h-avatar border-4 rounded-full border-purple-500"
             src="src\assets\naelem.png"
             alt="Naelem Foto"
           />
