@@ -1,5 +1,4 @@
 import { ArrowDown } from "phosphor-react";
-import { Logo } from "./Logo";
 import { Typewriter } from "./Typewriter";
 
 const handleScroll = () => {
@@ -14,17 +13,17 @@ export function Main() {
     <div className="font-inter bg-gray-950">
       <header className="flex justify-between items-center px-12 sm:px-7.5rem py-1.25rem">
         <aside className="logo">
-          <Logo />
+          <img className="h-6 sm:h-8" src="src\assets\logo_portfolio.svg" alt="Logo" />
         </aside>
 
         <nav className="flex gap-1.5rem">
-          <p className="font-normal text-sm sm:text-base text-gray-400 hover:text-bglinear transition duration-300 ease-in-out">
+          <p className="font-normal text-sm sm:text-base text-gray-400 hover:text-purple-400 transition duration-800 ease-in-out">
             <a href="#sobreMim">Sobre mim</a>
           </p>
-          <p className="font-normal text-sm sm:text-base text-gray-400 hover:text-bglinear transition duration-300 ease-in-out">
+          <p className="font-normal text-sm sm:text-base text-gray-400 hover:text-purple-400 transition duration-800 ease-in-out">
             <a href="#projetos">Projetos</a>
           </p>
-          <p className="font-normal text-sm sm:text-base text-gray-400 hover:text-bglinear transition duration-300 ease-in-out">
+          <p className="font-normal text-sm sm:text-base text-gray-400 hover:text-purple-400 transition duration-800 ease-in-out">
             <a href="#contato">Contato</a>
           </p>
         </nav>
@@ -40,7 +39,7 @@ export function Main() {
           <h2 id="typewriter" className="pt-6 text-xl sm:text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 from-20% via-purple-400 via-50% to-purple-200 to-80%">
             <Typewriter />
           </h2>
-          <p className="pt-3 text-sm sm:text-base  text-gray-400">
+          <p className="pt-3 text-sm sm:text-base text-center text-gray-400">
             Sou desenvolvedora Front-end e UI/UX Designer que traz vida às
             ideias e estilo às interfaces.
           </p>
