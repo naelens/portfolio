@@ -13,7 +13,7 @@ export function Main() {
     <div className="font-inter bg-gray-950">
       <header className="flex justify-between items-center px-12 sm:px-7.5rem py-1.25rem">
         <aside className="logo">
-          <img className="h-6 sm:h-8" src="src\assets\logo_portfolio.svg" alt="Logo" />
+          <img className="h-6 sm:h-8" src="src\assets\logo-portfolio.svg" alt="Logo" />
         </aside>
 
         <nav className="flex gap-1.5rem">
