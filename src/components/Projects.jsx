@@ -5,8 +5,8 @@ export function Projects() {
         <div id="projetos" className="flex flex-col py-10 sm:py-20 px-12 sm:px-7.5rem font-inter bg-gray-950">
             <h1 className="flex justify-center items-center gap-3 text-2xl sm:text-3xl font-semibold text-gray-50">Meus projetos</h1>
         
-            <section className="flex flex-wrap gap-6 mt-10 sm:mt-20">
-                <div className="w-auto sm:w-80 rounded-xl transform hover:scale-105 transition duration-300">
+            <section className="flex flex-wrap gap-6 mt-12">
+                <div className="w-auto sm:w-80 2xl:w-96 rounded-xl transform hover:scale-105 transition duration-300">
                     <img className="rounded-tl-xl rounded-tr-xl" src="src\assets\postify-projeto.png" alt="Imagem do projeto Postify" />
                     
                     <div className="p-5 bg-gray600 rounded-bl-xl rounded-br-xl">
@@ -19,7 +19,7 @@ export function Projects() {
                     </div>
                 </div>
 
-                <div className="w-auto sm:w-80 rounded-xl transform hover:scale-105 transition duration-300">
+                <div className="w-auto sm:w-80 2xl:w-96 rounded-xl transform hover:scale-105 transition duration-300">
                     <img className="rounded-tl-xl rounded-tr-xl" src="src\assets\to-do-projeto.png" alt="Imagem do projeto Postify" />
                     
                     <div className="p-5 bg-gray600 rounded-bl-xl rounded-br-xl">
@@ -32,7 +32,7 @@ export function Projects() {
                     </div>
                 </div>
 
-                <div className="w-auto sm:w-80 rounded-xl transform hover:scale-105 transition duration-300">
+                <div className="w-auto sm:w-80 2xl:w-96 rounded-xl transform hover:scale-105 transition duration-300">
                     <img className="rounded-tl-xl rounded-tr-xl" src="src\assets\glasses-projeto.png" alt="Imagem do projeto Glasses" />
                     
                     <div className="p-5 bg-gray600 rounded-bl-xl rounded-br-xl">
@@ -45,7 +45,7 @@ export function Projects() {
                     </div>
                 </div>
 
-                <div className="w-auto sm:w-80 rounded-xl transform hover:scale-105 transition duration-300">
+                <div className="w-auto sm:w-80 2xl:w-96 rounded-xl transform hover:scale-105 transition duration-300">
                     <img className="rounded-tl-xl rounded-tr-xl" src="src\assets\findmyplace-projeto.png" alt="Imagem do projeto Find My Place" />
                     
                     <div className="p-5 bg-gray600 rounded-bl-xl rounded-br-xl">

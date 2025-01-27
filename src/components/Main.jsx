@@ -36,10 +36,10 @@ export function Main() {
             src="src\assets\naelem.png"
             alt="Naelem Foto"
           />
-          <h2 id="typewriter" className="pt-6 text-xl sm:text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 from-20% via-purple-400 via-50% to-purple-200 to-80%">
+          <h2 id="typewriter" className="text-xl md:text-2xl xl:text-3xl font-semibold text-transparent pt-6 bg-clip-text bg-gradient-to-r from-purple-500 from-20% via-purple-400 via-50% to-purple-200 to-80%">
             <Typewriter />
           </h2>
-          <p className="pt-3 text-sm sm:text-base text-center text-gray-400">
+          <p className="text-sm sm:text-sm lg:text-base 2xl:text-xl text-center text-gray-400 pt-3">
             Sou desenvolvedora Front-end e UI/UX Designer que traz vida às
             ideias e estilo às interfaces.
           </p>

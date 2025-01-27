@@ -38,7 +38,7 @@ export default {
         '17.5rem': '17.5rem',
       },
       width: {
-        '40rem': '40rem'
+        '40rem': '40rem',
       },
       keyframes: {
         waveHand: {

@@ -6,21 +6,19 @@ export function AboutMe() {
             <h1 className="flex justify-center items-center gap-3 text-2xl sm:text-3xl font-semibold text-gray-50">Quem sou eu?</h1>
 
             <section>
-                    <section className="flex flex-col justify-center items-center mt-8"> 
-                        <p className="text-sm sm:text-base  text-gray-400 mt-4">
-                            Sou formada em Análise e Desenvolvimento de Sistemas (ADS) e especializada em desenvolvimento web. Minha jornada na tecnologia começou como um hobby curioso que logo virou paixão. 
-                        </p>
-                        <p className="text-sm sm:text-base  text-gray-400 mt-4">
-                        Hoje possuo experiência como <strong className="text-purple-400">Desenvolvedora Front-end</strong> e <strong className="text-purple-400">UI/UX Designer</strong>. 
+                    <section className="flex flex-col justify-center items-center mt-10"> 
+                        <p className="text-sm sm:text-base 2xl:text-xl text-gray-400">
+                            Sou formada em Análise e Desenvolvimento de Sistemas (ADS) e especializada em desenvolvimento web. Minha jornada na tecnologia começou como um hobby curioso que logo virou paixão.
+                            Hoje possuo experiência como <strong className="text-purple-400">Desenvolvedora Front-end</strong> e <strong className="text-purple-400">UI/UX Designer</strong>. 
                         Amando transformar ideias em experiências digitais incríveis, combinando criatividade e tecnologia para criar soluções eficiente e atrativas visualmente.
-                        Então se você procura soluções criativas e funcionais, estou aqui para ajudar. Vamos conversar!
+                        Então se você procura soluções criativas e funcionais, estou aqui para ajudar. Vamos conversar! 
                         </p>
                     </section>
                     
-                    <section className="grid grid-cols-1 sm:grid-cols-2 gap-14 mt-8">
+                    <section className="grid grid-cols-1 xl:grid-cols-2 gap-10 sm:gap-14 mt-8 2xl:mt-12">
                         <div>
-                            <h2 className="flex gap-3 items-center text-sm sm:text-base font-semibold text-purple-400">Minhas Skills</h2>
-                            <ul className="flex flex-wrap gap-4 mt-6">
+                            <h2 className="flex gap-3 items-center text-sm sm:text-base 2xl:text-xl font-semibold text-purple-400">Minhas Skills</h2>
+                            <ul className="flex flex-wrap gap-2 sm:gap-4 mt-6">
                                 <div className="flex flex-col justify-center items-center p-2 sm:p-3 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">
                                     <img className="h-10 sm:h-12" src="src\assets\html5-original.svg" alt="Html icone" />
                                 </div>
@@ -54,14 +52,14 @@ export function AboutMe() {
                             </ul>
                         </div>
                         <div>
-                            <h2 className="flex gap-3 items-center text-sm sm:text-base font-semibold text-purple-400">Meus serviços</h2>
+                            <h2 className="flex gap-3 items-center text-sm sm:text-base 2xl:text-xl font-semibold text-purple-400">Meus serviços</h2>
                             <div className="flex gap-4 mt-6">
-                                <div className="flex flex-col justify-center items-center px-1 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">
+                                <div className="flex flex-col justify-center items-center px-1 2xl:px-4 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">
                                     <div className="text-purple-400 p-2 rounded-full border border-purple-400"><Code size={20} /></div>
                                     <h2 className="mt-4 text-gray-50 text-xs sm:text-sm">Code</h2>
                                     <p className="text-gray-600 text-xs sm:text-sm mt-3 text-center">Desenvolvimento de Sites e Landing Pages.</p>
                                 </div>
-                                <div className="flex flex-col justify-center items-center px-2 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 p-4 bg-gray600">
+                                <div className="flex flex-col justify-center items-center px-2 2xl:px-4 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 p-4 bg-gray600">
                                     <div className="text-purple-400 p-2 rounded-full border border-purple-400"><PaintBrush size={20}/></div>
                                     <h2 className="mt-4 text-gray-50 text-xs sm:text-sm">UI/UX Design</h2>
                                     <p className="text-gray-600 text-xs sm:text-sm mt-3 text-center">Criação de Interface para Web e Mobile.</p>
