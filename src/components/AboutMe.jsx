@@ -8,10 +8,11 @@ export function AboutMe() {
             <section>
                     <section className="flex flex-col justify-center items-center mt-10"> 
                         <p className="text-sm sm:text-base 2xl:text-xl text-gray-400">
-                            Sou formada em Análise e Desenvolvimento de Sistemas (ADS) e especializada em desenvolvimento web. Minha jornada na tecnologia começou como um hobby curioso que logo virou paixão.
-                            Hoje possuo experiência como <strong className="text-purple-400">Desenvolvedora Front-end</strong> e <strong className="text-purple-400">UI/UX Designer</strong>. 
-                        Amando transformar ideias em experiências digitais incríveis, combinando criatividade e tecnologia para criar soluções eficiente e atrativas visualmente.
-                        Então se você procura soluções criativas e funcionais, estou aqui para ajudar. Vamos conversar! 
+                            Olá, me chamo Naelem. Sou formada em Análise e Desenvolvimento de Sistemas e hoje possuo experiência como <strong className="text-purple-400">Desenvolvedora Front-end</strong> e <strong className="text-purple-400">UI/UX Designer</strong>. 
+                            Minha jornada na tecnologia começou em 2022, eu não conhecia nada desse mundo e o que iniciou como um hobby curioso logo virou paixão.
+                            Atualmente continuo aprimorando minhas habilidades e me especializando na área de Front-end.
+                            Amo transformar ideias em experiências digitais incríveis, combinando criatividade e tecnologia para criar soluções eficiente e atrativas visualmente.
+                            Então se você procura soluções criativas e funcionais, estou aqui para ajudar!!
                         </p>
                     </section>
                     
