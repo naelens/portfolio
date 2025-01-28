@@ -36,9 +36,6 @@ export function AboutMe() {
                                     <img className="h-10 sm:h-12" src="src\assets\angularjs-original.svg" alt="Angular ícone" />
                                 </div>
                                 <div className="flex flex-col justify-center items-center p-2 sm:p-3 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">
-                                    <img className="h-10 sm:h-12" src="src\assets\angularjs-original.svg" alt="Angular ícone" />
-                                </div>
-                                <div className="flex flex-col justify-center items-center p-2 sm:p-3 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">
                                     <img className="h-10 sm:h-12" src="src\assets\typescript-original.svg" alt="Typescript ícone" />
                                 </div>
                                 <div className="flex flex-col justify-center items-center p-2 sm:p-3 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">

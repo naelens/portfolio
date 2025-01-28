@@ -16,16 +16,16 @@ export function Main() {
           <img className="h-6 sm:h-8" src="src\assets\logo-portfolio.svg" alt="Logo" />
         </aside>
 
-        <nav className="flex gap-1.5rem">
-          <p className="font-normal text-sm sm:text-base text-gray-400 hover:text-purple-400 transition duration-800 ease-in-out">
+        <nav className="flex gap-2 sm:gap-1.5rem">
+          <li className="list-none font-normal text-sm sm:text-base text-gray-400 hover:text-purple-400 transition duration-800 ease-in-out">
             <a href="#sobreMim">Sobre mim</a>
-          </p>
-          <p className="font-normal text-sm sm:text-base text-gray-400 hover:text-purple-400 transition duration-800 ease-in-out">
+          </li>
+          <li className="list-none font-normal text-sm sm:text-base text-gray-400 hover:text-purple-400 transition duration-800 ease-in-out">
             <a href="#projetos">Projetos</a>
-          </p>
-          <p className="font-normal text-sm sm:text-base text-gray-400 hover:text-purple-400 transition duration-800 ease-in-out">
+          </li>
+          <li className="list-none font-normal text-sm sm:text-base text-gray-400 hover:text-purple-400 transition duration-800 ease-in-out">
             <a href="#contato">Contato</a>
-          </p>
+          </li>
         </nav>
       </header>
 

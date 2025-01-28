@@ -12,7 +12,7 @@ export function Projects() {
                     <div className="p-5 bg-gray600 rounded-bl-xl rounded-br-xl">
                         <div className="flex justify-between">
                             <h2 className="text-base font-semibold text-gray-200">Postify</h2>
-                            <a className="p-1 bg-purple-500 hover:bg-purple-400 rounded-md text-white100" href="https://naelens.github.io/postify-ts/" target="_blank"><ArrowSquareOut size={20} /></a>
+                            <a className="p-1 bg-purple-500 hover:bg-purple-400 rounded-md text-white100" href="https://github.com/naelens/postify-ts" target="_blank"><ArrowSquareOut size={20} /></a>
                         </div>                        
                         
                         <p className="mt-4 text-sm text-gray-400">Aplicação para compartilhar publicações.</p>
@@ -25,7 +25,7 @@ export function Projects() {
                     <div className="p-5 bg-gray600 rounded-bl-xl rounded-br-xl">
                         <div className="flex justify-between">
                             <h2 className="text-base font-semibold text-gray-200">To Do</h2>
-                            <a className="p-1 bg-purple-500 hover:bg-purple-400 rounded-md text-white100" href="https://naelens.github.io/postify-ts/" target="_blank"><ArrowSquareOut size={20} /></a>
+                            <a className="p-1 bg-purple-500 hover:bg-purple-400 rounded-md text-white100" href="https://github.com/naelens/to_do_list" target="_blank"><ArrowSquareOut size={20} /></a>
                         </div>                        
                         
                         <p className="mt-4 text-sm text-gray-400">Aplicação para gerenciar tarefas.</p>

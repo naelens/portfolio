@@ -2,7 +2,7 @@ import { useEffect, useState, useMemo } from "react";
 
 export function Typewriter() {
     const words = useMemo(
-        () => ["Olá,", "Eu sou a Naelem."],
+        () => ["Olá,", "Eu sou a Naelem.", "Bem vindo ao meu site!"],
         [] 
     );
     const [currentWord, setCurrentWord] = useState("");
@@ -20,7 +20,7 @@ export function Typewriter() {
   
           if (charIndex === 0) {
             setIsDeleting(false);
-            setWordIndex((prev) => (prev + 1) % words.length); // Avança para a próxima palavra
+            setWordIndex((prev) => (prev + 1) % words.length);
           }
         } else {
           setCurrentWord(word.substring(0, charIndex + 1));

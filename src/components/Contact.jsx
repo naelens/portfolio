@@ -1,4 +1,4 @@
-import { GithubLogo, LinkedinLogo } from "phosphor-react";
+import { BehanceLogo, GithubLogo, LinkedinLogo } from "phosphor-react";
 
 export function Contact() {
     return (
@@ -63,6 +63,9 @@ export function Contact() {
                     <section className="flex flex-col justify-center items-center mt-6 sm:mt-10">
                             <div className="flex items-center gap-4 pt-6 text-gray-500">
                                 <p className="text-xs sm:text-sm 2xl:text-base font-medium text-gray-500">Ou se conecte comigo através: </p>
+                                <a className="hover:text-purple-400" href="https://www.behance.net/naelemsilva" target="_blank">
+                                    <BehanceLogo size={24} />
+                                </a>
                                 <a className="hover:text-purple-400" href="https://github.com/naelens" target="_blank">
                                     <GithubLogo size={24} />
                                 </a>
