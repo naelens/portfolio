@@ -2,7 +2,7 @@ import { BehanceLogo, GithubLogo, LinkedinLogo } from "phosphor-react";
 
 export function Contact() {
     return (
-        <div id="contato" className="flex flex-col justify-center items-center font-inter pt-10 pb-6 px-12 sm:px-7.5rem sm:pt-20,pb-4 bg-gray-950">
+        <div id="contato" className="flex flex-col justify-center items-center font-inter px-8 py-10 sm:px-7.5rem sm:py-20 bg-gray-950">
             <div className="border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 p-4 sm:p-8 sm:w-40rem">
                 <section>
                     <h1 className="flex justify-center text-xl sm:text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 from-20% via-purple-400 via-50% to-purple-200 to-80%">Entre em contato comigo</h1>

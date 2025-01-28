@@ -2,7 +2,7 @@ import { Code, PaintBrush } from "phosphor-react";
 
 export function AboutMe() {
     return (
-        <div id="sobreMim" className="flex flex-col py-10 sm:py-20 px-12 sm:px-7.5rem font-inter bg-gray-950">
+        <div id="sobreMim" className="flex flex-col py-10 sm:py-20 px-8 sm:px-7.5rem font-inter bg-gray-950">
             <h1 className="flex justify-center items-center gap-3 text-2xl sm:text-3xl font-semibold text-gray-50">Quem sou eu?</h1>
 
             <section>
@@ -19,7 +19,7 @@ export function AboutMe() {
                     <section className="grid grid-cols-1 xl:grid-cols-2 gap-10 sm:gap-14 mt-8 2xl:mt-12">
                         <div>
                             <h2 className="flex gap-3 items-center text-sm sm:text-base 2xl:text-xl font-semibold text-purple-400">Minhas Skills</h2>
-                            <ul className="flex flex-wrap gap-2 sm:gap-4 mt-6">
+                            <ul className="flex flex-wrap gap-4 sm:gap-4 mt-6">
                                 <div className="flex flex-col justify-center items-center p-2 sm:p-3 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">
                                     <img className="h-10 sm:h-12" src="src\assets\html5-original.svg" alt="Html icone" />
                                 </div>

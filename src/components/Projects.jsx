@@ -2,7 +2,7 @@ import { ArrowSquareOut } from "phosphor-react";
 
 export function Projects() {
     return (
-        <div id="projetos" className="flex flex-col py-10 sm:py-20 px-12 sm:px-7.5rem font-inter bg-gray-950">
+        <div id="projetos" className="flex flex-col py-10 sm:py-20 px-8 sm:px-7.5rem font-inter bg-gray-950">
             <h1 className="flex justify-center items-center gap-3 text-2xl sm:text-3xl font-semibold text-gray-50">Meus projetos</h1>
         
             <section className="flex flex-wrap gap-6 mt-12">

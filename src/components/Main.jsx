@@ -1,5 +1,6 @@
 import { ArrowDown } from "phosphor-react";
 import { Typewriter } from "./Typewriter";
+import Navbar from "./Navbar";
 
 const handleScroll = () => {
   const sectionAboutMe = document.getElementById("sobreMim");
@@ -11,25 +12,14 @@ const handleScroll = () => {
 export function Main() {
   return (
     <div className="font-inter bg-gray-950">
-      <header className="flex justify-between items-center px-12 sm:px-7.5rem py-1.25rem">
-        <aside className="logo">
-          <img className="h-6 sm:h-8" src="src\assets\logo-portfolio.svg" alt="Logo" />
+      <header className="flex justify-between sm:justify-center items-center px-8 sm:px-7.5rem py-6 bg-gray600">
+        <aside className="justify-center">
+          <img className="h-6 sm:h-7" src="src\assets\logo-portfolio.svg" alt="Logo" />
         </aside>
-
-        <nav className="flex gap-2 sm:gap-1.5rem">
-          <li className="list-none font-normal text-sm sm:text-base text-gray-400 hover:text-purple-400 transition duration-800 ease-in-out">
-            <a href="#sobreMim">Sobre mim</a>
-          </li>
-          <li className="list-none font-normal text-sm sm:text-base text-gray-400 hover:text-purple-400 transition duration-800 ease-in-out">
-            <a href="#projetos">Projetos</a>
-          </li>
-          <li className="list-none font-normal text-sm sm:text-base text-gray-400 hover:text-purple-400 transition duration-800 ease-in-out">
-            <a href="#contato">Contato</a>
-          </li>
-        </nav>
+        <Navbar />
       </header>
 
-      <main className="flex flex-col py-14 px-12 sm:px-7.5rem">
+      <main className="flex flex-col py-14 px-8 sm:px-7.5rem">
         <div className="flex flex-col items-center">
           <img
             className="h-40 sm:h-avatar border-4 rounded-full border-purple-500"
