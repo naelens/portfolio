@@ -14,7 +14,7 @@ export function Main() {
     <div className="font-inter bg-gray-950">
       <header className="flex justify-between sm:justify-center items-center px-8 sm:px-7.5rem py-6 bg-gray600">
         <aside className="justify-center">
-          <img className="h-6 sm:h-7" src="src\assets\logo-portfolio.svg" alt="Logo" />
+          <img className="h-6 sm:h-7" src="src/assets/logo-portfolio.svg" alt="Logo" />
         </aside>
         <Navbar />
       </header>
@@ -23,7 +23,7 @@ export function Main() {
         <div className="flex flex-col items-center">
           <img
             className="h-40 sm:h-avatar border-4 rounded-full border-purple-500"
-            src="src\assets\naelem.png"
+            src="src/assets/naelem.png"
             alt="Naelem Foto"
           />
           <h2 id="typewriter" className="text-xl md:text-2xl xl:text-3xl font-semibold text-transparent pt-6 bg-clip-text bg-gradient-to-r from-purple-500 from-20% via-purple-400 via-50% to-purple-200 to-80%">
