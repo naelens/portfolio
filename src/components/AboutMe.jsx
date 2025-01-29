@@ -21,31 +21,31 @@ export function AboutMe() {
                             <h2 className="flex gap-3 items-center text-sm sm:text-base 2xl:text-xl font-semibold text-purple-400">Minhas Skills</h2>
                             <ul className="flex flex-wrap gap-4 sm:gap-4 mt-6">
                                 <div className="flex flex-col justify-center items-center p-2 sm:p-3 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">
-                                    <img className="h-10 sm:h-12" src="src/assets/html5-original.svg" alt="Html icone" />
+                                    <img className="h-10 sm:h-12" src="/assets/html5-original.svg" alt="Html icone" />
                                 </div>
                                 <div className="flex flex-col justify-center items-center p-2 sm:p-3 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">
-                                    <img className="h-10 sm:h-12" src="src/assets/css3-original.svg" alt="CSS3 ícone" />
+                                    <img className="h-10 sm:h-12" src="/assets/css3-original.svg" alt="CSS3 ícone" />
                                 </div>
                                 <div className="flex flex-col justify-center items-center p-2 sm:p-3 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">
-                                    <img className="h-10 sm:h-12" src="src/assets/javascript-original.svg" alt="Javascript ícone" />
+                                    <img className="h-10 sm:h-12" src="/assets/javascript-original.svg" alt="Javascript ícone" />
                                 </div>
                                 <div className="flex flex-col justify-center items-center p-2 sm:p-3 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">
-                                    <img className="h-10 sm:h-12" src="src/assets/react-original.svg" alt="React ícone" />
+                                    <img className="h-10 sm:h-12" src="/assets/react-original.svg" alt="React ícone" />
                                 </div>
                                 <div className="flex flex-col justify-center items-center p-2 sm:p-3 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">
-                                    <img className="h-10 sm:h-12" src="src/assets/angularjs-original.svg" alt="Angular ícone" />
+                                    <img className="h-10 sm:h-12" src="/assets/angularjs-original.svg" alt="Angular ícone" />
                                 </div>
                                 <div className="flex flex-col justify-center items-center p-2 sm:p-3 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">
-                                    <img className="h-10 sm:h-12" src="src/assets/typescript-original.svg" alt="Typescript ícone" />
+                                    <img className="h-10 sm:h-12" src="/assets/typescript-original.svg" alt="Typescript ícone" />
                                 </div>
                                 <div className="flex flex-col justify-center items-center p-2 sm:p-3 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">
-                                    <img className="h-10 sm:h-12" src="src/assets/tailwindcss-original.svg" alt="Tailwind ícone" />
+                                    <img className="h-10 sm:h-12" src="/assets/tailwindcss-original.svg" alt="Tailwind ícone" />
                                 </div>
                                 <div className="flex flex-col justify-center items-center p-2 sm:p-3 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">
-                                    <img className="h-10 sm:h-12" src="src/assets/figma-original.svg" alt="Figma ícone" />
+                                    <img className="h-10 sm:h-12" src="/assets/figma-original.svg" alt="Figma ícone" />
                                 </div>
                                <div className="flex flex-col justify-center items-center p-2 sm:p-3 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">
-                                    <img className="h-10 sm:h-12" src="src/assets/git-original.svg" alt="Git ícone" />
+                                    <img className="h-10 sm:h-12" src="/assets/git-original.svg" alt="Git ícone" />
                                 </div>   
                             </ul>
                         </div>
