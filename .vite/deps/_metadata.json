@@ -1,0 +1,31 @@
+{
+  "hash": "08af2a2f",
+  "configHash": "057ae548",
+  "lockfileHash": "caeb6b32",
+  "browserHash": "d2c118b0",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "a094b679",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "64f022a2",
+      "needsInterop": true
+    },
+    "phosphor-react": {
+      "src": "../../node_modules/phosphor-react/dist/index.esm.js",
+      "file": "phosphor-react.js",
+      "fileHash": "ff3f9afd",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-UTEJFLXC": {
+      "file": "chunk-UTEJFLXC.js"
+    }
+  }
+}

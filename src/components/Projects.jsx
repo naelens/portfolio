@@ -7,7 +7,7 @@ export function Projects() {
         
             <section className="flex flex-wrap gap-6 mt-12">
                 <div className="w-auto sm:w-80 2xl:w-96 rounded-xl transform hover:scale-105 transition duration-300">
-                    <img className="rounded-tl-xl rounded-tr-xl" src="src/assets/postify-projeto.png" alt="Imagem do projeto Postify" />
+                    <img className="rounded-tl-xl rounded-tr-xl" src="postify-projeto.png" alt="Imagem do projeto Postify" />
                     
                     <div className="p-5 bg-gray600 rounded-bl-xl rounded-br-xl">
                         <div className="flex justify-between">
@@ -20,7 +20,7 @@ export function Projects() {
                 </div>
 
                 <div className="w-auto sm:w-80 2xl:w-96 rounded-xl transform hover:scale-105 transition duration-300">
-                    <img className="rounded-tl-xl rounded-tr-xl" src="src/assets/to-do-projeto.png" alt="Imagem do projeto Postify" />
+                    <img className="rounded-tl-xl rounded-tr-xl" src="to-do-projeto.png" alt="Imagem do projeto Postify" />
                     
                     <div className="p-5 bg-gray600 rounded-bl-xl rounded-br-xl">
                         <div className="flex justify-between">
@@ -33,7 +33,7 @@ export function Projects() {
                 </div>
 
                 <div className="w-auto sm:w-80 2xl:w-96 rounded-xl transform hover:scale-105 transition duration-300">
-                    <img className="rounded-tl-xl rounded-tr-xl" src="src/assets/glasses-projeto.png" alt="Imagem do projeto Glasses" />
+                    <img className="rounded-tl-xl rounded-tr-xl" src="glasses-projeto.png" alt="Imagem do projeto Glasses" />
                     
                     <div className="p-5 bg-gray600 rounded-bl-xl rounded-br-xl">
                         <div className="flex justify-between">
@@ -46,7 +46,7 @@ export function Projects() {
                 </div>
 
                 <div className="w-auto sm:w-80 2xl:w-96 rounded-xl transform hover:scale-105 transition duration-300">
-                    <img className="rounded-tl-xl rounded-tr-xl" src="src/assets/findmyplace-projeto.png" alt="Imagem do projeto Find My Place" />
+                    <img className="rounded-tl-xl rounded-tr-xl" src="findmyplace-projeto.png" alt="Imagem do projeto Find My Place" />
                     
                     <div className="p-5 bg-gray600 rounded-bl-xl rounded-br-xl">
                         <div className="flex justify-between">
