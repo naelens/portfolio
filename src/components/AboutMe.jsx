@@ -10,6 +10,8 @@ export function AboutMe() {
                         <p className="text-sm sm:text-base 2xl:text-xl text-gray-400">
                             Olá, me chamo Naelem. Sou formada em Análise e Desenvolvimento de Sistemas e hoje possuo experiência como <strong className="text-purple-400">Desenvolvedora Front-end</strong> e <strong className="text-purple-400">UI/UX Designer</strong>. 
                             Minha jornada na tecnologia começou em 2022, eu não conhecia nada desse mundo e o que iniciou como um hobby curioso logo virou paixão.
+                        </p>
+                        <p className="text-sm sm:text-base 2xl:text-xl text-gray-400">
                             Atualmente continuo aprimorando minhas habilidades e me especializando na área de Front-end.
                             Amo transformar ideias em experiências digitais incríveis, combinando criatividade e tecnologia para criar soluções eficiente e atrativas visualmente.
                             Então se você procura soluções criativas e funcionais, estou aqui para ajudar!!
@@ -52,14 +54,14 @@ export function AboutMe() {
                         <div>
                             <h2 className="flex gap-3 items-center text-sm sm:text-base 2xl:text-xl font-semibold text-purple-400">Meus serviços</h2>
                             <div className="flex gap-4 mt-6">
-                                <div className="flex flex-col justify-center items-center px-1 2xl:px-4 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">
+                                <div className="flex flex-col justify-center items-center px-2 2xl:px-4 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">
                                     <div className="text-purple-400 p-2 rounded-full border border-purple-400"><Code size={20} /></div>
                                     <h2 className="mt-4 text-gray-50 text-xs sm:text-sm">Code</h2>
                                     <p className="text-gray-600 text-xs sm:text-sm mt-3 text-center">Desenvolvimento de Sites e Landing Pages.</p>
                                 </div>
                                 <div className="flex flex-col justify-center items-center px-2 2xl:px-4 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 p-4 bg-gray600">
                                     <div className="text-purple-400 p-2 rounded-full border border-purple-400"><PaintBrush size={20}/></div>
-                                    <h2 className="mt-4 text-gray-50 text-xs sm:text-sm">UI/UX Design</h2>
+                                    <h2 className="mt-4 text-gray-50 text-xs sm:text-sm">Design</h2>
                                     <p className="text-gray-600 text-xs sm:text-sm mt-3 text-center">Criação de Interface para Web e Mobile.</p>
                                 </div>
                             </div>
