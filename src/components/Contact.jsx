@@ -1,6 +1,5 @@
 import { BehanceLogo, GithubLogo, LinkedinLogo } from "phosphor-react";
 import { useState } from "react";
-//import { useState } from "react";
 
 export function Contact() {
     const [name, setName] = useState("");
@@ -13,7 +12,6 @@ export function Contact() {
         setMessage("");
     }
     
-
     return (
         <div id="contato" className="flex flex-col justify-center items-center font-inter px-8 py-10 sm:px-7.5rem sm:py-20 bg-gray-950">
             <div className="border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 p-4 sm:p-8 sm:w-40rem">
@@ -40,7 +38,7 @@ export function Contact() {
                             </div>
                         </div>
 
-                        <div className="mt-4">
+                        <div className="mt-0 sm:mt-4">
                             <label htmlFor="email" className="block text-xs sm:text-sm 2xl:text-base font-medium text-gray-200">
                                 E-mail
                             </label>
