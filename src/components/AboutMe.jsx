@@ -21,8 +21,8 @@ export function AboutMe() {
                     
                     <section className="grid grid-cols-1 xl:grid-cols-2 gap-10 sm:gap-14 mt-8 2xl:mt-12">
                         <div>
-                            <h2 className="flex gap-3 items-center text-sm sm:text-base 2xl:text-xl font-semibold text-purple-400">Minhas Skills</h2>
-                            <ul className="flex flex-wrap gap-4 sm:gap-4 mt-6">
+                            <h2 className="flex gap-3 items-center text-base sm:text-lg 2xl:text-xl font-semibold text-purple-400">Minhas Skills</h2>
+                            <ul className="flex flex-wrap gap-3 sm:gap-4 mt-6">
                                 <div className="flex flex-col justify-center items-center p-2 sm:p-3 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">
                                     <img className="h-10 sm:h-12" src="html5-original.svg" alt="Html icone" />
                                 </div>
@@ -53,17 +53,17 @@ export function AboutMe() {
                             </ul>
                         </div>
                         <div>
-                            <h2 className="flex gap-3 items-center text-sm sm:text-base 2xl:text-xl font-semibold text-purple-400">Meus serviços</h2>
+                            <h2 className="flex gap-3 items-center text-base sm:text-lg 2xl:text-xl font-semibold text-purple-400">Meus serviços</h2>
                             <div className="flex gap-4 mt-6">
                                 <div className="flex flex-col justify-center items-center px-2 2xl:px-4 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 bg-gray600">
                                     <div className="text-purple-400 p-2 rounded-full border border-purple-400"><Code size={20} /></div>
                                     <h2 className="mt-4 text-gray-50 text-xs sm:text-sm">Code</h2>
-                                    <p className="text-gray-600 text-xs sm:text-sm mt-3 text-center">Desenvolvimento de Sites e Landing Pages.</p>
+                                    <p className="text-gray-500 text-xs sm:text-sm mt-3 text-center">Desenvolvimento de Sites e Landing Pages.</p>
                                 </div>
                                 <div className="flex flex-col justify-center items-center px-2 2xl:px-4 border border-purple-400 rounded-lg shadow-lg shadow-gray-500/20 p-4 bg-gray600">
                                     <div className="text-purple-400 p-2 rounded-full border border-purple-400"><PaintBrush size={20}/></div>
                                     <h2 className="mt-4 text-gray-50 text-xs sm:text-sm">Design</h2>
-                                    <p className="text-gray-600 text-xs sm:text-sm mt-3 text-center">Criação de Interface para Web e Mobile.</p>
+                                    <p className="text-gray-500 text-xs sm:text-sm mt-3 text-center">Criação de Interface para Web e Mobile.</p>
                                 </div>
                             </div>
                         </div>

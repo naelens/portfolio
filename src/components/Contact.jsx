@@ -22,7 +22,7 @@ export function Contact() {
                 <form action="https://getform.io/f/bvrrgxob" method="POST" className="mt-5 sm:mt-10" >
                     <div className="gap-4 grid grid-cols-1 sm:grid-cols-2">
                         <div className="mt-4">
-                            <label htmlFor="email" className="block text-xs sm:text-sm 2xl:text-base font-medium text-gray-200">
+                            <label htmlFor="email" className="block text-xs sm:text-sm 2xl:text-base font-medium text-gray-400">
                                 Nome
                             </label>
                             <div className="mt-2">
@@ -33,13 +33,13 @@ export function Contact() {
                                 autoComplete="Nome"
                                 onChange={(e) => setName(e.target.value)}
                                 value={name}
-                                className="block w-full rounded-md bg-gray-950 px-3 py-1.5 text-sm 2xl:text-base text-gray-400 outline outline-1 -outline-offset-1 outline-gray-800 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-purple-400"
+                                className="block w-full rounded-md bg-gray-950 px-3 py-2 text-sm 2xl:text-base text-gray-300 outline outline-1 -outline-offset-1 outline-gray-800 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-purple-400"
                                 />
                             </div>
                         </div>
 
                         <div className="mt-0 sm:mt-4">
-                            <label htmlFor="email" className="block text-xs sm:text-sm 2xl:text-base font-medium text-gray-200">
+                            <label htmlFor="email" className="block text-xs sm:text-sm 2xl:text-base font-medium text-gray-400">
                                 E-mail
                             </label>
                             <div className="mt-2">
@@ -50,34 +50,34 @@ export function Contact() {
                                 autoComplete="email"
                                 onChange={(e) => setEmail(e.target.value)}
                                 value={email}
-                                className="block w-full rounded-md bg-gray-950 px-3 py-1.5 text-sm 2xl:text-base text-gray-400 outline outline-1 -outline-offset-1 outline-gray-800 placeholder:text-gray-50 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-purple-400"
+                                className="block w-full rounded-md bg-gray-950 px-3 py-2 text-sm 2xl:text-base text-gray-300 outline outline-1 -outline-offset-1 outline-gray-800 placeholder:text-gray-50 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-purple-400"
                                 />
                             </div>
                         </div>
                     </div>
 
                     <div className="col-span-full mt-4">
-                        <label htmlFor="about" className="block text-xs sm:text-sm 2xl:text-base font-medium text-gray-200">
+                        <label htmlFor="about" className="block text-xs sm:text-sm 2xl:text-base font-medium text-gray-400">
                             Mensagem
                         </label>
                         <div className="mt-2">
                             <textarea
                             id="about"
                             name="about"
-                            rows={3}
+                            rows={4}
                             onChange={(e) => setMessage(e.target.value)}
                             value={message}
-                            className="block resize-none w-full rounded-md bg-gray-950 px-3 py-1.5 text-sm 2xl:text-base text-gray-400 outline outline-1 -outline-offset-1 outline-gray-800 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-purple-400"
+                            className="block resize-none w-full rounded-md bg-gray-950 px-3 py-1.5 text-sm 2xl:text-base text-gray-300 outline outline-1 -outline-offset-1 outline-gray-800 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-purple-400"
                             defaultValue={''}
                             />
                         </div>
                     </div>
 
-                    <div className="flex justify-center mt-8">
-                        <button onClick={handleSetForm} type="submit" className="px-4 py-2 sm:px-6 sm:py-2 rounded-md text-xs sm:text-base font-medium text-gray-50 hover:bg-purple-400 bg-purple-500 hover:text-white transition duration-300 ease-in-out">Enviar</button>
+                    <div className="flex justify-center mt-10">
+                        <button onClick={handleSetForm} type="submit" className="px-6 py-2 sm:px-8 sm:py-2 rounded-md text-xs sm:text-sm font-medium text-gray-50 hover:bg-purple-500 bg-purple-600 hover:text-white transition duration-300 ease-in-out">Enviar</button>
                     </div>
 
-                    <section className="flex flex-col justify-center items-center mt-6 sm:mt-10">
+                    <section className="flex flex-col justify-center items-center mt-3 sm:mt-4">
                             <div className="flex items-center gap-4 pt-6 text-gray-500">
                                 <p className="text-xs sm:text-sm 2xl:text-base font-medium text-gray-500">Ou se conecte comigo através: </p>
                                 <a className="hover:text-purple-400" href="https://www.behance.net/naelemsilva" target="_blank">
