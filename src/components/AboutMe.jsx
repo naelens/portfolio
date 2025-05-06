@@ -14,6 +14,7 @@ export function AboutMe() {
                         <p className="text-sm sm:text-base 2xl:text-xl text-gray-400">
                             Atualmente continuo aprimorando minhas habilidades e me especializando na área de Front-end.
                             Amo transformar ideias em experiências digitais incríveis, combinando criatividade e tecnologia para criar soluções eficiente e atrativas visualmente.
+                            Além disso, estou me dedicando aos estudos para, futuramente, me tornar uma desenvolvedora full stack, expandindo minha atuação para o back-end.
                             Então se você procura soluções criativas e funcionais, estou aqui para ajudar!!
                         </p>
                     </section>
