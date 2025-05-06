@@ -33,6 +33,19 @@ export function Projects() {
                 </div>
 
                 <div className="w-auto sm:w-80 2xl:w-96 rounded-xl transform hover:scale-105 transition duration-300">
+                    <img className="rounded-tl-xl rounded-tr-xl" src="mobel-cover.png" alt="Imagem do projeto Mobel" />
+                    
+                    <div className="p-5 bg-gray600 rounded-bl-xl rounded-br-xl">
+                        <div className="flex justify-between">
+                            <h2 className="text-base font-semibold text-gray-200">Mobel</h2>
+                            <a className="p-1 bg-purple-500 hover:bg-purple-400 rounded-md text-white100" href="https://naelens.github.io/mobel/" target="_blank"><ArrowSquareOut size={20} /></a>
+                        </div>                        
+                        
+                        <p className="mt-4 text-sm text-gray-400">Aplicação para venda de móveis.</p>
+                    </div>
+                </div>
+
+                <div className="w-auto sm:w-80 2xl:w-96 rounded-xl transform hover:scale-105 transition duration-300">
                     <img className="rounded-tl-xl rounded-tr-xl" src="glasses-projeto.png" alt="Imagem do projeto Glasses" />
                     
                     <div className="p-5 bg-gray600 rounded-bl-xl rounded-br-xl">
@@ -55,6 +68,19 @@ export function Projects() {
                         </div>                        
                         
                         <p className="mt-4 text-sm text-gray-400">Design de App para aluguel de casas.</p>
+                    </div>
+                </div>
+
+                <div className="w-auto sm:w-80 2xl:w-96 rounded-xl transform hover:scale-105 transition duration-300">
+                    <img className="rounded-tl-xl rounded-tr-xl" src="rose-petails.png" alt="Imagem do projeto Rose Petails" />
+                    
+                    <div className="p-5 bg-gray600 rounded-bl-xl rounded-br-xl">
+                        <div className="flex justify-between">
+                            <h2 className="text-base font-semibold text-gray-200">Rose Petails</h2>
+                            <a className="p-1 bg-purple-500 hover:bg-purple-400 rounded-md text-white100" href="https://www.behance.net/gallery/209757561/Rose-Petails" target="_blank"><ArrowSquareOut size={20} /></a>
+                        </div>                        
+                        
+                        <p className="mt-4 text-sm text-gray-400">Landing Page para e-commerce.</p>
                     </div>
                 </div>
             </section>
